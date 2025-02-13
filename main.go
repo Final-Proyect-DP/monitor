@@ -94,9 +94,9 @@ func main() {
 		{"Delete Profile", os.Getenv("VITE_API_DELETE_PROFILE_PROD"), "PROD"},
 		{"Update Profile", os.Getenv("VITE_API_UPDATE_PROFILE_PROD"), "PROD"},
 		{"Fetch Profile", os.Getenv("VITE_API_FETCH_PROFILE_PROD"), "PROD"},
+		{"Mark4Users", os.Getenv("VITE_API_MARK4USERS_PROD"), "PROD"},
 		{"Chatbot", os.Getenv("VITE_API_CHATBOT_PROD"), "PROD"},
 		{"Map Generator", os.Getenv("VITE_API_MAPGENERATOR_PROD"), "PROD"},
-		{"Mark4Users", os.Getenv("VITE_API_MARK4USERS_PROD"), "PROD"},
 	}
 
 	fmt.Println("Iniciando monitoreo de servicios...")
