@@ -85,6 +85,17 @@ func main() {
 		{"Mark4Users", os.Getenv("VITE_API_MARK4USERS"), "QA"},
 		{"Chatbot", os.Getenv("VITE_API_CHATBOT"), "QA"},
 		{"Map Generator", os.Getenv("VITE_API_MAPGENERATOR"), "QA"},
+		{"Get Category By ID", os.Getenv("VITE_API_GET_CATEGORY_BY_ID"), "QA"},
+		{"Get Category", os.Getenv("VITE_API_GET_CATEGORY"), "QA"},
+		{"Create Product", os.Getenv("VITE_API_CREATE_PRODUCT"), "QA"},
+		{"Socket", os.Getenv("VITE_API_SOCKET"), "QA"},
+		{"Fetch Chats", os.Getenv("VITE_API_FETCH_CHATS"), "QA"},
+		{"Start Chat", os.Getenv("VITE_API_START_CHAT"), "QA"},
+		{"Get User Items", os.Getenv("VITE_API_GET_USER_ITEMS"), "QA"},
+		{"Update Product", os.Getenv("VITE_API_UPDATE_PRODUCT"), "QA"},
+		{"Delete Product", os.Getenv("VITE_API_DELETE_PRODUCT"), "QA"},
+		{"Get Products", os.Getenv("VITE_API_GET_PRODUCTS"), "QA"},
+		{"Get Products By ID", os.Getenv("VITE_API_GET_PRODUCTS_BY_ID"), "QA"},
 		// Endpoints de producción
 		{"Login", os.Getenv("VITE_API_LOGIN_PROD"), "PROD"},
 		{"Logout", os.Getenv("VITE_API_LOGOUT_PROD"), "PROD"},
@@ -97,6 +108,15 @@ func main() {
 		{"Chatbot", os.Getenv("VITE_API_CHATBOT_PROD"), "PROD"},
 		{"Map Generator", os.Getenv("VITE_API_MAPGENERATOR_PROD"), "PROD"},
 		{"Mark4Users", os.Getenv("VITE_API_MARK4USERS_PROD"), "PROD"},
+		{"Create Product", os.Getenv("VITE_API_CREATE_PROD"), "PROD"},
+		{"Get Products", os.Getenv("VITE_API_GET_PRODUCTS_PROD"), "PROD"},
+		{"Get Products By ID", os.Getenv("VITE_API_GET_PRODUCTS_ID_PROD"), "PROD"},
+		{"Get Category", os.Getenv("VITE_API_GET_CATRGORY_PROD"), "PROD"},
+		{"Get Category By ID", os.Getenv("VITE_API_GET_CATEGORY_ID_PROD"), "PROD"},
+		{"Delete Product", os.Getenv("VITE_API_DELETE_PROD"), "PROD"},
+		{"Get User Items", os.Getenv("VITE_API_PRODUCTS_BY_USER_PROD"), "PROD"},
+		{"Update Product", os.Getenv("VITE_API_UPDATE_PROD"), "PROD"},
+		{"Start Chat", os.Getenv("VITE_API_MESSAGES_PROD"), "PROD"},
 	}
 
 	fmt.Println("Iniciando monitoreo de servicios...")
